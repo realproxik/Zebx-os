@@ -1,16 +1,6 @@
-; ZEBX OS BOOTLOADER - VERSION 1.0
-; Real BIOS Bootloader with Setup, Boot Menu, and Kernel Loading
-; 8000+ Lines of x86 Assembly Code
-; ============================================================================
-; Author: Zebx Development Team
-; Date: May 31, 2026
-; Architecture: x86-32 (Real Mode -> Protected Mode)
-; ============================================================================
-
-; ----------------------------------------------------------------------------
-; SECTION 1: CONSTANTS AND DEFINITIONS
-; ----------------------------------------------------------------------------
-
+; ====================
+; zebx bootloader pt1
+; ====================
 ; BIOS Memory Map
 BOOTLOADER_ADDR     equ 0x7C00
 BOOTLOADER_SIZE     equ 512
