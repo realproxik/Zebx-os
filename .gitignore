@@ -1,0 +1,58 @@
+# Build artifacts
+*.o
+*.obj
+*.elf
+*.exe
+*.out
+*.a
+*.so
+*.dll
+*.dylib
+
+# Compiled binaries
+*.bin
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Dependency files
+*.d
+
+# Assembly listings
+*.lst
+*.map
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build directories
+build/
+bin/
+obj/
+Debug/
+Release/
+cmake-build-*/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Autotools
+config.h
+config.log
+config.status
+autom4te.cache/
