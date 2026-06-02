@@ -509,17 +509,14 @@ void filemanager_show_system_info(file_manager_t *fm) {
 
 void filemanager_show_zebx_about(file_manager_t *fm) {
     vga_puts("\\n--- About ZEBX OS ---\\n");
-    vga_puts("ZEBX OS - Gaming Operating System\\n");
-    vga_puts("Version 1.0 - Freedom Edition\\n");
     vga_puts("\\nFeatures:\\n");
-    vga_puts("  - 800+ Core Multi-Processing\\n");
     vga_puts("  - AVX-512 SIMD Engine\\n");
     vga_puts("  - Intel Architecture Support\\n");
     vga_puts("  - HDR / VRR Display\\n");
     vga_puts("  - Web Browser Engine\\n");
-    vga_puts("  - Scientific Calculator\\n");
-    vga_puts("  - 50MP Camera\\n");
-    vga_puts("  - 1Gbps Gaming Network\\n");
+    vga_puts("  - best calculator\\n");
+    vga_puts("  - applications\\n");
+    vga_puts("  - 1Gbps  Network\\n");
     vga_puts("\\n(c) 2026 ZEBX Corporation\\n");
 }
 
