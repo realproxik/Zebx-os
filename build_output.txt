@@ -1,0 +1,3 @@
+[*] Compiling kernel_main.c
+[
+Press any key to continue . . . 
